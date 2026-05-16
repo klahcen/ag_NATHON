@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "node",
+  "steps": {
+    "install": {
+      "commands": ["cd frontend && npm install"]
+    },
+    "build": {
+      "inputs": [{ "step": "install" }],
+      "commands": ["cd frontend && npm run build"]
+    }
+  },
+  "deploy": {
+    "startCommand": "sh -c 'cd frontend && npm run start'"
+  }
+}

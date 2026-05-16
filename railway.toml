@@ -1,0 +1,9 @@
+# Use when Railway Root Directory is empty (repo root).
+# Prefer setting Root Directory = "frontend" instead; then frontend/railpack.json is enough.
+
+[build]
+builder = "RAILPACK"
+buildCommand = "cd frontend && npm install && npm run build"
+
+[deploy]
+startCommand = "cd frontend && npm run start"

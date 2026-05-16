@@ -1,8 +1,9 @@
 # FRONTEND service on Railway — Docker container (Next.js)
-# Settings → Root Directory MUST be: frontend
+# Root Directory: frontend  (recommended)  OR repo root with Dockerfile path frontend/Dockerfile
 
 [build]
 builder = "DOCKERFILE"
+# Use "Dockerfile" when Root Directory = frontend; use "frontend/Dockerfile" when Root Directory = .
 dockerfilePath = "Dockerfile"
 
 [deploy]

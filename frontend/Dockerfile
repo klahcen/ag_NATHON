@@ -1,14 +1,30 @@
-# Next.js frontend — build context must be the frontend/ directory (Railway root directory).
-FROM node:22-alpine
+# Next.js frontend — works with either Railway layout:
+#   • Root Directory = frontend   (build context = frontend/)
+#   • Root Directory = repo root  (build context = ., Dockerfile path = frontend/Dockerfile)
 
+FROM node:22-alpine AS src
+WORKDIR /src
+COPY . .
+RUN set -eux; \
+    if [ -f package.json ]; then \
+      APP=.; \
+    elif [ -f frontend/package.json ]; then \
+      APP=frontend; \
+    else \
+      echo "ERROR: package.json not found (expected at ./ or ./frontend/)" >&2; \
+      ls -la . >&2; \
+      exit 1; \
+    fi; \
+    mkdir -p /build && cp -a "$APP"/. /build/
+
+FROM node:22-alpine
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+COPY --from=src /build/package.json /build/package-lock.json ./
 RUN npm ci
 
-COPY . .
+COPY --from=src /build/ .
 
-# Baked at build time for client-side fetch (set in Railway → frontend → Variables).
 ARG NEXT_PUBLIC_API_URL
 ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
 

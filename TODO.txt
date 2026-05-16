@@ -1,0 +1,10 @@
+Quelle est la prochaine montagne que nous allons gravir ensemble ?
+
+Option 1 : Le Graal du B2B. On s'attaque au fameux scraper d'événements LinkedIn via Google (SERP) pour alimenter votre radar.
+
+Option 2 : La Persistance. On remplace vos fichiers .json par une vraie petite base de données (comme Supabase ou Firebase) pour sécuriser vos données à long terme.
+
+Option 3 : Le Déploiement. On met cet outil en ligne (sur Vercel ou Render) pour que vous puissiez modérer vos événements depuis votre téléphone ou n'importe quel ordinateur.
+
+
+backend>uvicorn api:app --reload

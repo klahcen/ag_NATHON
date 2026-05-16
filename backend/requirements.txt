@@ -1,0 +1,10 @@
+anthropic
+streamlit
+feedparser
+beautifulsoup4
+requests
+python-dotenv
+apify-client
+playwright
+fastapi
+uvicorn

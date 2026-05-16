@@ -1,0 +1,661 @@
+[
+  {
+    "event_id": "https://www.frenchweb.fr/hello-tomorrow-global-summit-la-bascule-du-laboratoire-vers-le-capital/461514",
+    "title": "Hello Tomorrow Global Summit 2026",
+    "description": "Le principal carrefour européen de la deeptech réunit chercheurs, entrepreneurs, industriels et investisseurs à Amsterdam pour accélérer le passage du laboratoire au capital.",
+    "url": "https://www.frenchweb.fr/hello-tomorrow-global-summit-la-bascule-du-laboratoire-vers-le-capital/461514",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-11",
+    "end_date": "2026-06-12",
+    "timezone": "Europe/Amsterdam",
+    "format": "in_person",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Pays-Bas",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "fundraising",
+      "founder_community"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conferences",
+        "pitching"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Le sommet deeptech européen de référence, idéal pour les fondateurs cherchant à connecter science, industrie et capital-risque.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-09T23:36:21.553455",
+    "last_verified_at": "2026-05-09T23:36:21.553455",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/france-quantum-la-structuration-dune-filiere-europeenne/461518",
+    "title": "France Quantum, la structuration d'une filière européenne",
+    "description": "Événement de référence de l'écosystème quantique français réunissant startups deeptech, labos publics, industriels et État à Station F pour transformer l'excellence scientifique en capacité industrielle.",
+    "url": "https://www.frenchweb.fr/france-quantum-la-structuration-dune-filiere-europeenne/461518",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-16",
+    "end_date": "2026-06-16",
+    "timezone": "Europe/Paris",
+    "format": "in_person",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "venue": "Station F"
+    },
+    "language": "FR",
+    "topics": [
+      "deeptech",
+      "founder_community",
+      "international_growth"
+    ],
+    "relevant_for": {
+      "stages": [
+        "pre_seed",
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "ecosystem"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Point de convergence de l'écosystème quantique français : startups deeptech, industriels et État réunis à Station F pour structurer la filière.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-09T23:36:27.576226",
+    "last_verified_at": "2026-05-09T23:36:27.576226",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/qt-nordics-le-quantique-applique-a-lindustrie/461521",
+    "title": "IQT Nordics – Le quantique appliqué à l'industrie",
+    "description": "À Oslo, IQT Nordics explore les applications concrètes du quantique : capteurs, communications sécurisées et intégration industrielle. Une approche pragmatique portée par l'écosystème nordique.",
+    "url": "https://www.frenchweb.fr/qt-nordics-le-quantique-applique-a-lindustrie/461521",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-22",
+    "end_date": "2026-06-24",
+    "timezone": "Europe/Oslo",
+    "format": "in_person",
+    "location": {
+      "city": "Oslo",
+      "country": "Norvège",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "security_compliance",
+      "ai"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "workshops"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Focus sur les applications industrielles du quantique (capteurs, sécurité) — pertinent pour les deeptech founders en quête de marchés concrets.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-09T23:36:33.987061",
+    "last_verified_at": "2026-05-09T23:36:33.987061",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/ieee-quantum-week-qce-le-niveau-reel-de-maturite/461528",
+    "title": "IEEE Quantum Week (QCE) 2026",
+    "description": "Rendez-vous technique de référence sur l'informatique quantique : architectures, correction d'erreurs, logiciels quantiques et interopérabilité. Réunit chercheurs, ingénieurs et industriels à Toronto.",
+    "url": "https://www.frenchweb.fr/ieee-quantum-week-qce-le-niveau-reel-de-maturite/461528",
+    "source": "FrenchWeb",
+    "start_date": "2026-09-13",
+    "end_date": "2026-09-18",
+    "timezone": "America/Toronto",
+    "format": "in_person",
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "ai"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "workshops"
+      ]
+    },
+    "format_tags": [
+      "conference",
+      "workshop"
+    ],
+    "why_relevant": "Référence mondiale sur la maturité quantique réelle : idéal pour les fondateurs deeptech cherchant signal vs hype.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-09T23:36:40.526402",
+    "last_verified_at": "2026-05-09T23:36:40.526402",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/commercialising-quantum-global-la-confrontation-au-reel/461525",
+    "title": "Commercialising Quantum Global",
+    "description": "Événement pragmatique dédié à la viabilité économique du quantique : intégration dans des environnements réels, confrontation au marché et discussions sur les cas d'usage concrets.",
+    "url": "https://www.frenchweb.fr/commercialising-quantum-global-la-confrontation-au-reel/461525",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-16",
+    "end_date": "2026-06-17",
+    "timezone": "Europe/London",
+    "format": "in_person",
+    "location": {
+      "city": "Londres",
+      "country": "Royaume-Uni",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "international_growth",
+      "saas_b2b"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "workshops"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Focus sur la commercialisation réelle du quantique : idéal pour startups deeptech cherchant à valider leur go-to-market.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-09T23:36:46.504878",
+    "last_verified_at": "2026-05-09T23:36:46.504878",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/machina-by-raise-2026-paris-veut-devenir-lun-des-centres-europeens-de-la-physical-ai/461688",
+    "title": "MACHINA by RAISE 2026",
+    "description": "Événement parisien dédié à la robotique et à la 'physical AI', organisé par l'écosystème RAISE. Paris ambitionne de devenir un centre européen majeur de l'IA physique et de la révolution robotique.",
+    "url": "https://www.frenchweb.fr/machina-by-raise-2026-paris-veut-devenir-lun-des-centres-europeens-de-la-physical-ai/461688",
+    "source": "FrenchWeb",
+    "start_date": "2026-07-07",
+    "end_date": "2026-07-07",
+    "timezone": "Europe/Paris",
+    "format": "in_person",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "venue": null
+    },
+    "language": "FR",
+    "topics": [
+      "ai",
+      "deeptech",
+      "founder_community"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "ai",
+        "robotics"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Focus européen sur la physical AI et la robotique, porté par l'écosystème RAISE à Paris — clé pour les fondateurs deeptech & AI.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:37:47.071059",
+    "last_verified_at": "2026-05-16T17:37:47.071059",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/robotics-summit-expo-2026-boston-au-coeur-de-la-nouvelle-economie-robotique/461685",
+    "title": "Robotics Summit & Expo 2026",
+    "description": "Le Robotics Summit & Expo 2026 à Boston réunit les acteurs de la robotique industrielle, académique et logistique autour de la convergence des marchés et de la nouvelle économie robotique.",
+    "url": "https://www.frenchweb.fr/robotics-summit-expo-2026-boston-au-coeur-de-la-nouvelle-economie-robotique/461685",
+    "source": "FrenchWeb",
+    "start_date": "2026-05-27",
+    "end_date": "2026-05-28",
+    "timezone": "America/New_York",
+    "format": "in_person",
+    "location": {
+      "city": "Boston",
+      "country": "États-Unis",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "ai"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "expo",
+        "conference"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Convergence robotique industrielle, académique et logistique : terrain fertile pour startups deeptech cherchant partenaires et marchés.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:37:53.943895",
+    "last_verified_at": "2026-05-16T17:37:53.943895",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/automate-show-2026-la-robotique-industrielle-entre-dans-lere-de-lusine-autonome/461682",
+    "title": "Automate Show 2026",
+    "description": "Grand salon mondial de la robotique industrielle et de l'automatisation à Chicago, explorant la convergence entre IA et usine autonome. Rendez-vous incontournable pour acteurs de l'industrie 4.0.",
+    "url": "https://www.frenchweb.fr/automate-show-2026-la-robotique-industrielle-entre-dans-lere-de-lusine-autonome/461682",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-22",
+    "end_date": "2026-06-25",
+    "timezone": "America/Chicago",
+    "format": "in_person",
+    "location": {
+      "city": "Chicago",
+      "country": "USA",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "ai",
+      "deeptech"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "exhibition",
+        "conference"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Salon mondial sur la robotique industrielle et l'IA appliquée à l'usine autonome, pertinent pour startups deeptech et industrielles.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:38:01.514157",
+    "last_verified_at": "2026-05-16T17:38:01.514157",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/humanoids-summit-tokyo-2026-la-robotique-humanoide-entre-dans-sa-phase-industrielle/461678",
+    "title": "Humanoids Summit Tokyo 2026",
+    "description": "Sommet international dédié à la robotique humanoïde à Tokyo, explorant son passage à la phase industrielle et les opportunités de marché de masse en 2026.",
+    "url": "https://www.frenchweb.fr/humanoids-summit-tokyo-2026-la-robotique-humanoide-entre-dans-sa-phase-industrielle/461678",
+    "source": "FrenchWeb",
+    "start_date": "2026-05-28",
+    "end_date": "2026-05-29",
+    "timezone": "Asia/Tokyo",
+    "format": "in_person",
+    "location": {
+      "city": "Tokyo",
+      "country": "Japan",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "international_growth",
+      "ai"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "deeptech"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Premier sommet sur la robotique humanoïde industrielle à Tokyo, idéal pour les fondateurs deeptech et hardware visant les marchés asiatiques.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:38:09.160702",
+    "last_verified_at": "2026-05-16T17:38:09.160702",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/sibos-derriere-la-fintech-la-mecanique-du-systeme-financier-mondial/461672",
+    "title": "SIBOS 2026",
+    "description": "Le principal sommet mondial des infrastructures financières, organisé par SWIFT. Réunit les acteurs clés du système financier mondial autour des infrastructures, paiements et innovations fintech.",
+    "url": "https://www.frenchweb.fr/sibos-derriere-la-fintech-la-mecanique-du-systeme-financier-mondial/461672",
+    "source": "FrenchWeb",
+    "start_date": "2026-09-28",
+    "end_date": "2026-10-01",
+    "timezone": "America/New_York",
+    "format": "in_person",
+    "location": {
+      "city": "Miami",
+      "country": "USA",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "saas_b2b",
+      "ai",
+      "security_compliance",
+      "international_growth",
+      "deeptech"
+    ],
+    "relevant_for": {
+      "stages": [
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "fintech"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Sommet mondial des infrastructures financières SWIFT — incontournable pour les fintechs B2B visant les marchés institutionnels et internationaux.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:38:15.638219",
+    "last_verified_at": "2026-05-16T17:38:15.638219",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/hello-tomorrow-global-summit-la-bascule-du-laboratoire-vers-le-capital/461514",
+    "title": "Hello Tomorrow Global Summit 2026",
+    "description": "Le principal carrefour européen de la deeptech réunit chercheurs, entrepreneurs, industriels et investisseurs à Amsterdam pour accélérer le passage du laboratoire au capital.",
+    "url": "https://www.frenchweb.fr/hello-tomorrow-global-summit-la-bascule-du-laboratoire-vers-le-capital/461514",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-11",
+    "end_date": "2026-06-12",
+    "timezone": "Europe/Amsterdam",
+    "format": "in_person",
+    "location": {
+      "city": "Amsterdam",
+      "country": "Pays-Bas",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "fundraising",
+      "founder_community"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conferences",
+        "pitching"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Carrefour européen deeptech réunissant chercheurs, fondateurs et investisseurs pour accélérer le transfert labo→capital.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:39:33.772503",
+    "last_verified_at": "2026-05-16T17:39:33.772503",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/france-quantum-la-structuration-dune-filiere-europeenne/461518",
+    "title": "France Quantum – La structuration d'une filière européenne",
+    "description": "Rendez-vous de l'écosystème quantique français à Station F : laboratoires, startups deeptech, industriels et État réunis pour transformer l'excellence scientifique en capacité industrielle.",
+    "url": "https://www.frenchweb.fr/france-quantum-la-structuration-dune-filiere-europeenne/461518",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-16",
+    "end_date": "2026-06-16",
+    "timezone": "Europe/Paris",
+    "format": "in_person",
+    "location": {
+      "city": "Paris",
+      "country": "France",
+      "venue": "Station F"
+    },
+    "language": "FR",
+    "topics": [
+      "deeptech",
+      "founder_community",
+      "international_growth"
+    ],
+    "relevant_for": {
+      "stages": [
+        "pre_seed",
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Événement clé de la filière quantique française réunissant startups deeptech, industriels et État à Station F.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:39:39.813748",
+    "last_verified_at": "2026-05-16T17:39:39.813748",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/qt-nordics-le-quantique-applique-a-lindustrie/461521",
+    "title": "IQT Nordics – Le quantique appliqué à l'industrie",
+    "description": "À Oslo, IQT Nordics explore les applications concrètes du quantique : capteurs, communications sécurisées et intégration industrielle. Une approche pragmatique portée par l'écosystème nordique.",
+    "url": "https://www.frenchweb.fr/qt-nordics-le-quantique-applique-a-lindustrie/461521",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-22",
+    "end_date": "2026-06-24",
+    "timezone": "Europe/Oslo",
+    "format": "in_person",
+    "location": {
+      "city": "Oslo",
+      "country": "Norvège",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "security_compliance"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Focus sur les applications industrielles du quantique (capteurs, sécurité) — pertinent pour startups deeptech cherchant débouchés concrets.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:39:46.266121",
+    "last_verified_at": "2026-05-16T17:39:46.266121",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/ieee-quantum-week-qce-le-niveau-reel-de-maturite/461528",
+    "title": "IEEE Quantum Week (QCE) 2026",
+    "description": "Rendez-vous technique de référence sur l'informatique quantique : architectures, correction d'erreurs, logiciels quantiques et interopérabilité. Réunit chercheurs, ingénieurs et industriels à Toronto.",
+    "url": "https://www.frenchweb.fr/ieee-quantum-week-qce-le-niveau-reel-de-maturite/461528",
+    "source": "FrenchWeb",
+    "start_date": "2026-09-13",
+    "end_date": "2026-09-18",
+    "timezone": "America/Toronto",
+    "format": "in_person",
+    "location": {
+      "city": "Toronto",
+      "country": "Canada",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "ai"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "workshops"
+      ]
+    },
+    "format_tags": [
+      "conference",
+      "workshop"
+    ],
+    "why_relevant": "Référence mondiale sur la maturité quantique réelle : idéal pour les fondateurs deeptech cherchant signal vs hype.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:39:52.536396",
+    "last_verified_at": "2026-05-16T17:39:52.536396",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  },
+  {
+    "event_id": "https://www.frenchweb.fr/commercialising-quantum-global-la-confrontation-au-reel/461525",
+    "title": "Commercialising Quantum Global",
+    "description": "Événement pragmatique à Londres centré sur la viabilité économique du quantique : intégration dans des environnements réels, modèles commerciaux et confrontation au marché.",
+    "url": "https://www.frenchweb.fr/commercialising-quantum-global-la-confrontation-au-reel/461525",
+    "source": "FrenchWeb",
+    "start_date": "2026-06-16",
+    "end_date": "2026-06-17",
+    "timezone": "Europe/London",
+    "format": "in_person",
+    "location": {
+      "city": "Londres",
+      "country": "Royaume-Uni",
+      "venue": null
+    },
+    "language": "EN",
+    "topics": [
+      "deeptech",
+      "saas_b2b",
+      "international_growth"
+    ],
+    "relevant_for": {
+      "stages": [
+        "seed",
+        "series_a",
+        "series_b_plus"
+      ],
+      "activities": [
+        "networking",
+        "conference",
+        "workshops"
+      ]
+    },
+    "format_tags": [
+      "conference"
+    ],
+    "why_relevant": "Focus sur la commercialisation réelle du quantique : idéal pour startups deeptech cherchant à valider leur modèle économique à l'international.",
+    "curator_notes": null,
+    "first_seen_at": "2026-05-16T17:39:58.761231",
+    "last_verified_at": "2026-05-16T17:39:58.761231",
+    "status": "queued_for_review",
+    "classification_confidence": "low",
+    "reviewer": null
+  }
+]

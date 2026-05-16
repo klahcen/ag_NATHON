@@ -1,6 +1,9 @@
+# Railway: set this service's Root Directory to `backend` (not the repo root).
+
 [build]
 builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
 healthcheckPath = "/healthz"
+restartPolicyType = "ON_FAILURE"

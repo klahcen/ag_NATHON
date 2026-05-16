@@ -1,6 +1,10 @@
+# FRONTEND service on Railway — Docker container (Next.js)
+# Settings → Root Directory MUST be: frontend
+
 [build]
-builder = "railpack"
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
 
 [deploy]
-startCommand = "npm run start"
-buildCommand = "npm install && npm run build"
+healthcheckPath = "/"
+restartPolicyType = "ON_FAILURE"

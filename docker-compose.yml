@@ -1,0 +1,26 @@
+# Local: frontend in a container; API on the host or in compose.
+#   docker compose up --build frontend
+#   make dev-api   # API on :8000 (or uncomment the api service below)
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    ports:
+      - "${WEB_PORT:-3001}:3000"
+    environment:
+      PORT: "3000"
+
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "${API_PORT:-8000}:8000"
+    environment:
+      PORT: "8000"
+    volumes:
+      - ./backend/data:/app/data

@@ -3,7 +3,7 @@
 
 .PHONY: help install install-backend install-frontend \
         dev dev-api dev-web api web pipeline \
-        build build-frontend health seed clean
+        build build-frontend docker-frontend docker-up health seed clean railway-hint
 
 ROOT     := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 BACKEND  := $(ROOT)backend
@@ -26,6 +26,9 @@ help:
 	@echo "  make health           Curl API healthz"
 	@echo "  make seed             Copy sample events into data/review_queue.json"
 	@echo "  make build-frontend   Production build for Next.js"
+	@echo "  make docker-frontend  Run Next.js in Docker (see docker-compose.yml)"
+	@echo "  make docker-up        Run frontend + API containers"
+	@echo "  make railway-hint     Print Railway deploy settings (3 services)"
 	@echo "  make clean            Remove caches (not .venv)"
 
 # --- Setup ---
@@ -77,6 +80,35 @@ print('Seeded', len(queue), 'events ->', get_data_dir())"
 build-frontend:
 	cd $(FRONTEND) && npm run build
 
+docker-frontend:
+	docker-compose up --build frontend
+
+docker-up:
+	docker-compose up --build
+
 clean:
 	rm -rf $(FRONTEND)/.next $(FRONTEND)/out
 	find $(BACKEND) -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+
+railway-hint:
+	@echo "Railway — 3 services, same GitHub repo (ag_NATHON):"
+	@echo ""
+	@echo "  1) FRONTEND (Docker container — Next.js)"
+	@echo "     Root Directory:  frontend          ← required"
+	@echo "     Builder:         Dockerfile        (frontend/railway.toml)"
+	@echo "     NOT Railpack at repo root"
+	@echo "     Variable:        NEXT_PUBLIC_API_URL=https://<backend>.up.railway.app"
+	@echo ""
+	@echo "  2) BACKEND (API — FastAPI)"
+	@echo "     Root Directory:  backend"
+	@echo "     Builder:         Dockerfile        (backend/railway.toml)"
+	@echo "     Health:          /healthz"
+	@echo ""
+	@echo "  3) PIPELINE (scraper — main.py, optional cron)"
+	@echo "     Root Directory:  backend"
+	@echo "     Builder:         Dockerfile"
+	@echo "     Start command:   python main.py"
+	@echo "     Cron:            0 */6 * * *  (or use backend/railway.pipeline.toml)"
+	@echo "     Variables:       ANTHROPIC_API_KEY, etc."
+	@echo ""
+	@echo "If build logs list Makefile + frontend/ at repo root, Root Directory is wrong."

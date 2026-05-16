@@ -1,0 +1,17 @@
+# PIPELINE service on Railway — scraper (main.py), scheduled cron
+# Create a 3rd service from the same repo:
+#   Name:           curator-pipeline  (or pipeline)
+#   Root Directory: backend
+#   Config file:    railway.pipeline.toml  (Settings → Config-as-code path, if offered)
+# Or copy these [deploy] values into the Railway UI for that service.
+#
+# Env: ANTHROPIC_API_KEY (and any vars from backend/.env)
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+startCommand = "python main.py"
+cronSchedule = "0 */6 * * *"
+restartPolicyType = "NEVER"

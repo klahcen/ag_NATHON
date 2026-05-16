@@ -1,0 +1,6 @@
+[build]
+builder = "railpack"
+
+[deploy]
+startCommand = "npm run start"
+buildCommand = "npm install && npm run build"

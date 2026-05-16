@@ -36,7 +36,7 @@ help:
 install: install-backend install-frontend
 
 install-backend:
-	@test -d $(VENV) || python3 -m venv $(VENV)
+	@if [ ! -x $(PIP) ]; then rm -rf $(VENV); python3 -m venv $(VENV); fi
 	$(PIP) install --upgrade pip setuptools wheel
 	$(PIP) install -r $(BACKEND)/requirements.txt
 	@echo "Backend ready. Activate: source backend/.venv/bin/activate"
@@ -81,10 +81,12 @@ build-frontend:
 	cd $(FRONTEND) && npm run build
 
 docker-frontend:
-	docker-compose up --build frontend
+	@echo "Frontend container → http://localhost:3000  (API: make dev-api → :8000)"
+	docker-compose up --build --force-recreate frontend
 
 docker-up:
-	docker-compose up --build
+	@echo "Frontend → http://localhost:3000  |  API → http://localhost:8000"
+	docker-compose up --build --force-recreate
 
 clean:
 	rm -rf $(FRONTEND)/.next $(FRONTEND)/out
@@ -99,10 +101,11 @@ railway-hint:
 	@echo "     NOT Railpack at repo root"
 	@echo "     Variable:        NEXT_PUBLIC_API_URL=https://<backend>.up.railway.app"
 	@echo ""
-	@echo "  2) BACKEND (API — FastAPI)"
-	@echo "     Root Directory:  backend"
+	@echo "  2) BACKEND (API — FastAPI)  — service name can be ag_NATHON or backend"
+	@echo "     Root Directory:  backend           (or repo root + backend/Dockerfile)"
 	@echo "     Builder:         Dockerfile        (backend/railway.toml)"
 	@echo "     Health:          /healthz"
+	@echo "     Do NOT use frontend/Dockerfile for this service"
 	@echo ""
 	@echo "  3) PIPELINE (scraper — main.py, optional cron)"
 	@echo "     Root Directory:  backend"

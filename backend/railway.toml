@@ -1,9 +1,12 @@
-# Railway: set this service's Root Directory to `backend` (not the repo root).
+# BACKEND API on Railway (FastAPI)
+# Root Directory: backend  (recommended)  OR repo root with Dockerfile path backend/Dockerfile
 
 [build]
 builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
+startCommand = "python -m uvicorn api:app --host 0.0.0.0 --port $PORT"
 healthcheckPath = "/healthz"
+healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"

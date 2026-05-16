@@ -7,5 +7,8 @@ builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
+# Must listen on $PORT (do not override in Railway UI with plain "npm run start").
+startCommand = "node node_modules/next/dist/bin/next start"
 healthcheckPath = "/"
+healthcheckTimeout = 300
 restartPolicyType = "ON_FAILURE"

@@ -30,9 +30,11 @@ ENV NEXT_PUBLIC_API_URL=$NEXT_PUBLIC_API_URL
 
 RUN npm run build
 
+# Railway injects PORT at runtime; Next.js reads PORT + HOSTNAME from the environment.
 ENV NODE_ENV=production \
-    HOSTNAME=0.0.0.0
+    HOSTNAME=0.0.0.0 \
+    PORT=3000
 
 EXPOSE 3000
 
-CMD ["sh", "-c", "exec npm run start -- -p ${PORT:-3000}"]
+CMD ["node", "node_modules/next/dist/bin/next", "start"]
